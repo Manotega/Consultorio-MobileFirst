@@ -1,0 +1,105 @@
+.dia {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 5% 0 0 6%;
+}
+
+.bloco {
+    background-color: var(--cor-principal);
+    margin: 5%;
+    border-radius: 16px;
+    padding: 5% 0;
+    height: max-content;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5% 5%;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.3);
+}
+
+.perfil__imagem {
+    width: 12%;
+    border-radius: 128px;
+}
+
+.perfil__dados {
+    padding: 0 35% 0 3%;
+    width: 50%;
+}
+
+.perfil__dados__nome {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-bottom: 5%;
+}
+
+.perfil__dados__consulta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.camera-img {
+    width: 15%;
+}
+
+.perfil__dados__consulta__tipo {
+    font-size: 0.8rem;
+    color: var(--cor-secundaria);
+    width: 150%;
+}
+
+.chat-img {
+    width: 12%;
+}
+
+.remota {
+    padding: 5% 5% 0;
+}
+
+.consulta__horario {
+    font-size: 0.9rem;
+    padding-bottom: 5%;
+    font-weight: 500;
+}
+
+.remota__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remota__botoes__video {
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-size: 1rem;
+    padding: 5%;
+    background-color: var(--botao-video);
+    border-radius: 8px;
+}
+
+.remota__botoes__audio {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 5%;
+    border-radius: 8px;
+    border: 1px solid rgba(163, 163, 163, 0.3);
+}
+
+.endereco__botao {
+    text-decoration: none;
+    color: var(--cor-principal);
+    background-color: var(--botao-endereco);
+    border-radius: 8px;
+    padding: 5% 25%;
+    text-align: center;
+}
+
+.presencial {
+    padding: 5% 5% 0;
+    display: flex;
+    flex-direction: column;
+}
