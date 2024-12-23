@@ -6,7 +6,7 @@
 
 .banner__perfil {
     width: 18%;
-    border-radius: 128px;
+    border-radius: 500px;
 }
 
 .banner__info {
@@ -24,4 +24,32 @@
 .banner__info__consultas {
     color: var(--cor-secundaria);
     font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 5%;
+    }
+    
+    .banner__perfil {
+        width: 10%;
+    }
+
+    .banner__info {
+        padding: 2%;
+    }
+
+    .banner__info__nome {
+        font-size: 1.8rem;
+        font-weight: 700;
+        padding-bottom: 12%;
+    }   
+
+    .banner__info__consultas {
+        font-size: 1.2rem
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
 }
