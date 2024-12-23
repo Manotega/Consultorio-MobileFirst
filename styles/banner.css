@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1024px) {
     .banner {
-        padding: 5%;
+        padding: 5% 2%;
     }
     
     .banner__perfil {
