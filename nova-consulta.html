@@ -34,19 +34,52 @@
 
         <section class="cadastro">
             <div class="cadastro__nome">
-                <h1 class="cadastro__nome__titulo">Seu nome:</h1>
-                <input type="text" placeholder="Rogério Mücke Ceni" class="cadastro__nome__caixa">
+                <h1 class="cadastro__titulos">Seu nome:</h1>
+                <input type="text" placeholder="Rogério Mücke Ceni" class="cadastro__txtbox">
             </div>
 
             <div class="cadastro__email">
-                <h1 class="cadastro__email__titulo">Seu email:</h1>
-                <input type="email" placeholder="exemplo@email.com.br" class="cadastro__email__caixa">
+                <h1 class="cadastro__titulos">Seu email:</h1>
+                <input type="email" placeholder="exemplo@email.com.br" class="cadastro__txtbox">
             </div>
 
             <div class="cadastro__consulta">
-                <h1>Tipo de consulta:</h1>
+                <h1 class="cadastro__titulos">Tipo de consulta:</h1>
+                
+                <div class="cadastro__consulta__opcoes">
+                    <input type="radio" id="opcao1" name="opcao" value="opcao1" class="opc">
+                    <label for="opcao1" class="cadastro__consulta__opcao">Presencial</label>
+                </div>
+                <div class="cadastro__consulta__opcoes">
+                    <input type="radio" id="opcao2" name="opcao" value="opcao2">
+                    <label for="opcao2" class="cadastro__consulta__opcao">Remota</label>
+                </div>
+            </div>
+
+            <div class="cadastro__data">
+                <h1 class="cadastro__titulos">Data & Horário:</h1>
+                <input type="date">
+                <input type="time">
+            </div>
+
+            <div class="cadastro__observacoes">
+                <h1 class="cadastro__titulos">Observações:</h1>
+                <textarea placeholder="Digite aqui..."></textarea>
             </div>
         </section>
+
+        <a href="#modal" class="confirmacao-botao">Enviar solicitação</a>
+        <div id="modal" class="confirmacao">
+            <div class="confirmacao__conteudo">
+                <div>
+                    <h1>Sucesso</h1>
+                    <a href="#"><img src="assets/Close.svg" alt=""></a>
+                </div>
+                <p>Uma confirmacao sera enviada para seu email em alguns instates, fique ligado! </p>
+                <a href="index.html">Voltar ao Menu</a>
+            </div>
+        </div>
+
     </main>
 
     <footer class="rodape">

@@ -11,5 +11,56 @@
     color: var(--cor-secundaria);
     text-align: center;
     padding-bottom: 5%;
+}
+
+.cadastro {
+    padding: 2% 5%;
+    border-top: 1px solid rgba(163, 163, 163, 0.5);
     border-bottom: 1px solid rgba(163, 163, 163, 0.5);
+}
+
+.cadastro__titulos {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 7% 1% 3%;
+}
+
+.cadastro__txtbox {
+    width: 90%;
+    padding: 4%;
+    border-radius: 8px;
+    border: 1px solid rgba(163, 163, 163, 0.5);
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.cadastro__txtbox::placeholder {
+    color: var(--cor-secundaria);
+    font-size: 0.8rem;
+}
+
+.cadastro__txtbox:focus {
+    border-color:var(--botao-endereco);
+}
+
+.cadastro__consulta {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cadastro__consulta__opcoes {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cadastro__consulta__opcao {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+input[type="radio"]:checked + label {
+    color: var(--botao-endereco);
 }
