@@ -44,6 +44,11 @@
     color: var(--cor-secundaria);
 }
 
+.rodape__consultas__texto-2 {
+    color: var(--cor-secundaria);
+    font-size: 0.8rem;
+}
+
 @media screen and (min-width: 1024px) {
     .botao-flutuante {
         bottom: 8%;

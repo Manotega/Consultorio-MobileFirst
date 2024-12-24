@@ -14,9 +14,10 @@
 }
 
 .cadastro {
-    padding: 2% 5%;
+    padding: 2% 5% 5%;
     border-top: 1px solid rgba(163, 163, 163, 0.5);
     border-bottom: 1px solid rgba(163, 163, 163, 0.5);
+    margin-bottom: 10%;
 }
 
 .cadastro__titulos {
@@ -48,6 +49,7 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 16px;
+    padding-bottom: 3%;
 }
 
 .cadastro__consulta__opcoes {
@@ -63,4 +65,112 @@
 
 input[type="radio"]:checked + label {
     color: var(--botao-endereco);
+}
+
+.cadastro-data {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.cadastro__data__dia {
+    outline: none;
+    border: 1px solid rgba(163, 163, 163, 0.5);
+    border-radius: 8px;
+    text-align: center;
+    width: 42%;
+    padding: 3%;
+    font-size: 1.1rem;
+    font-family: var(--fonte-principal);
+}
+
+.cadastro__data__dia:focus {
+    border-color: var(--botao-endereco);
+}
+
+.cadastro__observacoes__caixa {
+    outline: none;
+    font-family: var(--fonte-principal);
+    border: 1px solid rgba(163, 163, 163, 0.5);
+    border-radius: 8px;
+    width: 90%;
+    padding: 3% 5% 10%;
+    font-size: 1rem;
+}
+
+.cadastro__observacoes__caixa::placeholder {
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+}
+
+
+.butao {
+    display: flex;
+    justify-content: center;
+    padding: 0 8% 7%;
+}
+
+.confirmacao-botao {
+    text-decoration: none;
+    font-size: 1rem;
+    color:var(--cor-principal);
+    font-weight: 600;
+    width: fit-content;
+    padding: 6% 25%;
+    border-radius: 8px;
+    background-color: var(--botao-endereco);
+}
+
+.confirmacao {
+    display: none;
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    align-items: center;
+    z-index: 1000;
+}
+
+.confirmacao:target {
+    display: flex;
+}
+
+.confirmacao__conteudo {
+    background-color: var(--cor-principal);
+    margin: 10%;
+    padding: 5%;
+    border-radius: 8px;
+}
+
+.confirmacao__conteudo__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirmacao__conteudo__cabecalho__titulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.confirmacao__conteudo__texto {
+    font-size: 1rem;
+    line-height: 140%;
+    padding: 5% 0;
+}
+
+.butao2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.confirmacao__conteudo__botao {
+    text-decoration: none;
+    color: var(--cor-principal);
+    background-color: var(--botao-endereco);
+    padding: 6% 15%;
+    border-radius: 8px;
 }

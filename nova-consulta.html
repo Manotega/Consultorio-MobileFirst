@@ -58,25 +58,32 @@
 
             <div class="cadastro__data">
                 <h1 class="cadastro__titulos">Data & Horário:</h1>
-                <input type="date">
-                <input type="time">
+                <div class="cadastro-data">
+                    <input type="date" class="cadastro__data__dia">
+                    <input type="time" class="cadastro__data__dia">
+                </div>
             </div>
 
             <div class="cadastro__observacoes">
                 <h1 class="cadastro__titulos">Observações:</h1>
-                <textarea placeholder="Digite aqui..."></textarea>
+                <textarea placeholder="Digite aqui..." class="cadastro__observacoes__caixa"></textarea>
             </div>
         </section>
 
-        <a href="#modal" class="confirmacao-botao">Enviar solicitação</a>
+        <div class="butao">
+            <a href="#modal" class="confirmacao-botao">Enviar solicitação</a>
+        </div>
+
         <div id="modal" class="confirmacao">
             <div class="confirmacao__conteudo">
-                <div>
-                    <h1>Sucesso</h1>
+                <div class="confirmacao__conteudo__cabecalho">
+                    <h1 class="confirmacao__conteudo__cabecalho__titulo">Sucesso</h1>
                     <a href="#"><img src="assets/Close.svg" alt=""></a>
                 </div>
-                <p>Uma confirmacao sera enviada para seu email em alguns instates, fique ligado! </p>
-                <a href="index.html">Voltar ao Menu</a>
+                <p class="confirmacao__conteudo__texto">Uma confirmacao sera enviada para seu email em alguns instates, fique ligado! </p>
+                <div class="butao2">
+                    <a href="index.html" class="confirmacao__conteudo__botao">Voltar ao Menu</a>
+                </div>
             </div>
         </div>
 
@@ -84,8 +91,8 @@
 
     <footer class="rodape">
         <a href="index.html" class="rodape__opcao">
-            <img src="assets/Calendarioicone.svg" alt="" class="rodape__consultas-img">
-            <span class="rodape__consultas__texto">Consultas</span>
+            <img src="assets/Calendarioicone cinza.svg" alt="" class="rodape__consultas-img">
+            <span class="rodape__consultas__texto-2">Consultas</span>
         </a>
         <div class="rodape__opcao">
             <img src="assets/clientes icone.svg" alt="" class="rodape__clientes-img">
