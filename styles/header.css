@@ -1,0 +1,55 @@
+.cabecalho {
+    display: none;
+    background-color: var(--cor-principal);
+}
+
+.cabecalho__opcao {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cabecalho__opcao__texto {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho__consultas-img {
+    width: 22px;
+}
+
+.cabecalho__consultas__texto {
+    font-size: 1rem;
+    color: var(--botao-endereco);
+    font-weight: 600;
+}
+
+.cabecalho__consultas__texto-2 {
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.cabecalho__clientes-img {
+    width: 26px;
+}
+
+.cabecalho__relatorios-img {
+    width: 16px;
+}
+
+.cabecalho__menu-img {
+    width: 26px;
+}
+
+@media screen and (min-width: 1720px) {
+    .cabecalho {
+        display: flex;
+        align-items: flex-end;
+        padding: 1% 25%;
+        width: 50%;
+        justify-content: space-between;
+    }
+}

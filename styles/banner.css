@@ -50,6 +50,22 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1720px) {
+    .banner {
+        padding: 3%;
+    }
 
+    .banner__perfil {
+        width: 7%;
+    }
+
+    .banner__info {
+        padding: 1%;
+    }
+
+    .banner__info__nome {
+        font-size: 2rem;
+        font-weight: 00;
+        padding-bottom: 10%;
+    } 
 }

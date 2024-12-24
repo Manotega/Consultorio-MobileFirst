@@ -1,0 +1,15 @@
+.marcar__titulo {
+    padding: 10% 0 2%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120%;
+}
+
+.marcar__sub {
+    font-size: 1.1rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding-bottom: 5%;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.5);
+}

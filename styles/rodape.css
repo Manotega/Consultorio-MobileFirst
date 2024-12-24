@@ -1,6 +1,6 @@
 .botao-flutuante {
     position: fixed;
-    bottom: 6%;
+    bottom: 7%;
     right: 3%;
     background: none;
     border: none;
@@ -30,6 +30,7 @@
     align-items: center;
     gap: 8px;
     width: 100%;
+    text-decoration: none;
 }
 
 .rodape__consultas__texto {
@@ -41,4 +42,59 @@
 .rodape__opcao__texto {
     font-size: 0.8rem;
     color: var(--cor-secundaria);
+}
+
+@media screen and (min-width: 1024px) {
+    .botao-flutuante {
+        bottom: 8%;
+        right: 4%;
+    }
+
+    .flutuante-img {
+        width: 150%;
+    }
+
+    .rodape {
+        width: 50%;
+        padding: 2% 25%;
+        justify-content: center;
+    }
+
+    .rodape__opcao {
+        width: 130%;   
+    }
+
+    .rodape__consultas__texto {
+        font-size: 1rem;
+    }
+
+    .rodape__opcao__texto {
+        font-size: 1rem;
+    }
+
+    .rodape__consultas-img {
+        width: 24px;
+    }
+
+    .rodape__clientes-img {
+        width: 28px;
+    }
+
+    .rodape__relatorios-img {
+        width: 18px;
+    }
+
+    .rodape__menu-img {
+        width: 28px;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    .rodape {
+        display: none;
+    }
+
+    .botao-flutuante {
+        bottom: 75%;
+    }
 }
