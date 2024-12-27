@@ -94,7 +94,7 @@
     }
 }
 
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1600px) {
     .rodape {
         display: none;
     }

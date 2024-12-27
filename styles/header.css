@@ -46,7 +46,7 @@
     width: 26px;
 }
 
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1600px) {
     .cabecalho {
         display: flex;
         align-items: flex-end;

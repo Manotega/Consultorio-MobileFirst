@@ -99,6 +99,10 @@ input[type="radio"]:checked + label {
     font-size: 1rem;
 }
 
+.cadastro__observacoes__caixa:focus {
+    border-color: var(--botao-endereco);
+}
+
 .cadastro__observacoes__caixa::placeholder {
     font-size: 1rem;
     color: var(--cor-secundaria);
@@ -186,12 +190,12 @@ input[type="radio"]:checked + label {
         font-size: 2rem;
     }
 
-    .cadastro {
-        margin-bottom: 5%;
-    }
-
     .marcar__sub {
         font-size: 1.3rem;
+    }
+
+    .cadastro {
+        margin-bottom: 5%;
     }
 
     .cadastro__titulos {
@@ -247,6 +251,7 @@ input[type="radio"]:checked + label {
         font-size: 1.3rem;
         padding: 2.5% 20%;
     }
+
     .confirmacao__conteudo {
         margin: 25%;
         padding: 2%;
@@ -263,6 +268,69 @@ input[type="radio"]:checked + label {
     .confirmacao__conteudo__texto {
         font-size: 1.2rem;
         color: var(--cor-secundaria);
+    }
+
+    .confirmacao__conteudo__botao {
+        padding: 4% 10%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    main {
+        margin-bottom: 0;
+    }
+    
+    .marcar__titulo {
+        padding: 6% 0 0.5%;
+        font-size: 2.2rem;
+    }
+
+    .marcar__sub {
+        font-size: 1.5rem;
+        padding-bottom: 3%;
+    }
+
+    .cadastro {
+        margin-bottom: 5%;
+        padding: 2% 25% 3%;
+        border-top: 2px solid rgba(163, 163, 163, 0.5);
+        border-bottom: 2px solid rgba(163, 163, 163, 0.5);
+    }
+
+    .cadastro__titulos {
+        font-size: 1.4rem;
+        padding: 4% 0.5% 3%;
+    }
+
+    .cadastro__txtbox {
+        width: 35%;
+        padding: 1%;
+        margin-bottom: 1%;
+        font-size: 1rem;
+    }
+
+    .cadastro__txtbox::placeholder {
+        font-size: 1rem;
+    }
+
+    .butao {
+        padding-bottom: 3%;
+    }
+
+    .confirmacao-botao {
+        font-size: 1.5rem;
+        padding: 2% 15%;
+    }
+
+    .confirmacao__conteudo {
+        margin: 30%;
+        padding: 2%;
+    }
+
+    .confirmacao__conteudo__cabecalho__titulo {
+        font-size: 1.7rem;
     }
 
     .confirmacao__conteudo__botao {
